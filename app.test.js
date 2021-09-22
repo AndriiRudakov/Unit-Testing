@@ -1,11 +1,11 @@
-const { expect } = require("@jest/globals")
+const { test, expect } = require('@jest/globals');
+const nNumber = require('./app');
+const score = require('./app');
 
-const {sum, score} = require('./app')
-
-test('If that Delete what i need', () => {
-    expect(sum([5,9,0,1,5,0,9])).toBe([9,1,9]);
+test('Does delete 0 and 5 values from number', () => {
+    expect(nNumber(59015509)).toEqual(919);
 })
 
-test('If true score', () => {
-    expect(score([1,4,6,7,8,9,5])).toBe(23);
+test('Does it correct score', () => {
+    expect(score([3,5,6,7,9])).toBe(18);
 })

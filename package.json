@@ -1,12 +1,12 @@
 {
-  "name": "jest",
-  "version": "1.0.0",
-  "description": "little project",
+  "name": "unittest",
+  "version": "1.0.1",
+  "description": "unittestjest",
   "main": "app.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Andrii",
+  "author": "AndriiRudakov",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.2.1"
